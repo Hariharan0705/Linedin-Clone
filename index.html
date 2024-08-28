@@ -1,0 +1,791 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="icon" href="LinkedIn_icon.svg.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      body{
+        background-color: rgb(228, 228, 226);
+      }
+      .form-control{
+        border-radius: 20px;
+        border: none;
+        background: transparent;
+        padding-right: 30px;
+        width: 250px;
+        padding: 0 16px;
+      }
+      nav{
+        background-color: white;
+      }
+    </style>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="padding-left: 120px;"><img src="nav-linkedin.jpg" alt="" ></a>
+      <div class="ipt">
+        <form class="d-flex">
+          <img src="searchicon-removebg-preview.png" alt="">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item" style="padding-left: 170px;">
+            <a class="nav-link active" aria-current="page" href="#"><span style="padding-left: 5px;"><img src="home.png" alt="" width="30px" height="30px"></span><figcaption style="text-decoration: underline black ; text-underline-offset: 11px;"> Home</figcaption></a>
+          </li>
+          <li class="nav-item" style="padding-left: 20px;">
+            <abbr title="My network" style="text-decoration: none;"><a class="nav-link" href="#"><span style="padding-left: 25px;"><img src="my network.png" alt="" width="30px" height="30px"></span><figcaption>My Network</figcaption></a></abbr>
+          </li>
+          <li class="nav-item" style="padding-left: 20px;">
+            <a class="nav-link" href="#"><img src="job.png" alt="" width="30px" height="30px"><figcaption>Jobs</figcaption></a>
+          </li>
+          <li class="nav-item" style="padding-left: 20px;">
+            <a class="nav-link" href="#"><span style="padding-left: 15px;"><img src="message.jpg" alt="" width="35px" height="30px"></span><figcaption>Message</figcaption></a>
+          </li>
+          <li class="nav-item" style="padding-left: 17px;">
+            <a class="nav-link" href="#"><span style="padding-left: 20px;"><img src="notification.png" alt="" width="45px" height="30px"></span><figcaption>Notifications</figcaption></a>
+          </li>
+          <li class="nav-item dropdown" style="padding-left: 20px;">
+            <img src="proofile img.jpg" alt="" width="35px" height="30px" style="border-radius: 23px; padding-top: 9px;">
+            <a class="nav-link dropdown dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Me</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 350px;">
+              <li><a class="dropdown-item" href="#">
+                <div class="post" style="padding:0px 20px 0px ; margin: 0px 0px 0px;">
+                  <div class="author">
+                    <a href=""><img src="proofile img.jpg" alt="" style=" width: 70px; border-radius: 50%;height: 70px; float: left;"></a>
+                    <div style="float: right;">
+                      <h6 style="font-size: 16px; font-weight: 600; margin-left: 60px;">Hariharan.S</h6>
+                      <small style="display: block; font-size: 15px;"><span style="margin-left: 40px;">MERN Stack Developer</span>
+                        <br>Building Scalable Web Applications<br><span style="margin-left: 35px;">JavaScript Enthusiast</span>
+                      </small>
+                    </div>
+                  </div>
+                </div></a>
+              </li> 
+              <li><a href="" class="dropdown-item" style="border-radius: 26px; width: 300px; margin-top: 10px; color: blue; border: 1px solid blue; margin-left: 20px; text-align: center;"><span> View Porfile</span> </a>
+              </li>
+              <li>
+                <span style="margin-left: 30px; font-weight: 600; font-size: large;">Account</span>
+                <ul style="text-decoration: none; color: black; opacity: .6;">
+                  <li class="dropdown-item"><a class="caption2" style="font-size:small ;text-decoration: none; color: black;"><img src="premium.png" alt="" style="width: 14px; height:13px; ">  Try 1 month premium of ₹0</a></li>
+                  <li class="dropdown-item"><a href="" style="text-decoration: none; color: black;">Settig & Privacy</a></li>
+                  <li class="dropdown-item"><a href="" style="text-decoration: none; color: black;">Help</a></li>
+                  <li class="dropdown-item"><a href="" style="text-decoration: none; color: black;">Language</a></li>
+                </ul>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li><span style="margin-left: 30px; font-weight: 600; font-size: large;">Manage</span>
+                <ul>
+                  <li class="dropdown-item"><a href="" style="text-decoration: none; color: black; opacity: .8;">Post & Activity</a></li>
+                  <li class="dropdown-item"><a href="" style="text-decoration: none; color: black; opacity: .8;">Job posting Account</a></li>
+                </ul>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li style="padding-left: 20px;"><a href="" style="text-decoration: none; color: black; opacity: .8;">Sign Out</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown" style="padding-left: 20px; padding-top: 5px;"><abbr title="For business" style="text-decoration: none;">
+            <span style="padding-top: 20px; padding-left: 37px;"><img src="for-business.webp" alt="" width="25px" height="25px">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <span style="font-size: 15px;">For Business</span></a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul></abbr>
+          </li>
+        </ul>
+        <a href="" style="text-decoration: underline rgb(156, 133, 1); color: rgb(175, 149, 2); padding-bottom: 30px;font-size: small; font-weight: bold;">Try premium for ₹0</a>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    
+    <!--     ------left side-------     -->
+    <div class="left-sidebar">
+      <div class="left-top">
+        <div class="imgs">
+          <img src="Profile-bg.jpeg" alt="" width="100%" height="70px" style="border-radius: 10px 10px 0px 0px;">
+          <div class="info">
+            <a href=""><img src="proofile img.jpg" alt="" style="width: 100%; height: 150px;"></a>
+            <a id="name" href=""><h6 style="text-align: center;">Hariharan.S</h6></a>
+            <p style="text-align: center; font-size: small; opacity: .6;">MERN Stack Developer | Building Scalable Web Applications | JavaScript Enthusiast</p><hr>
+            <a class="caption" href=""><p style="float: left; opacity: .6;"> profile viewers</p>
+            <p style="float: right; color: rgb(4, 168, 233);">79</p></a>
+            <a class="caption" href=""><p style="float: left; font-size: smaller;"><span style="opacity: .6;">Connections </span><br><span style="font-size:small">Grow Your Network</span></p> 
+            <p style="float: right; color: rgb(4, 168, 233);">144</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="top-middle">
+        <a class="caption1" href=""><p style="float: left; font-size: smaller;"><span style="opacity: .6;">Network smarter with premium</span><br><span class="caption2" style="font-size:small "><img src="premium.png" alt="" style="width: 14px; height:13px;">  Try 1 month premium of ₹0</span></p></a>
+      </div>
+      <div class="sticky">
+        <div class="top-middle2">
+          <a href=""><img src="save.png" alt="" style="width: 17px; height:17px; float: left; margin-top: 21px; margin-left: 5px;"><span class="caption1" style="font-size:18 px; float: right;float: left; padding-top: 16px;">&nbsp; &nbsp;  Saved items</span></span></p></a>
+        </div>
+        <div class="top-end">
+          <div style="padding-top: 15px;margin-left: 5px;">
+            <p style="font-size: 15px; padding-right: 30px;">Recent</p>
+            <a href="" class="a1">Group</a><br><br>
+            <a href="" class="a1">Event</a><br><br>
+            <a href="" class="a1">Followed Hashtags</a>
+          </div><hr>
+        </div>
+        <div class="top-end2">
+          <div class="end1" style="padding-top: 15px;">
+            <a href="" style="padding-left: 50px; font-size: larger; text-decoration: none; color: black;"> Discover More</a>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+
+    <!--    ------posted container------    -->
+    <div class="main-content">
+
+      <!--        ---------search-------      -->
+      <div class="search">
+        <div class="mid1">
+          <div class="mid1-line1" style="padding: 15px 10px 10px 28px;">
+            <a href=""><img src="proofile img.jpg" alt="" style="border-radius: 50%; height: 60px; width: 55px;"></a>
+            <!--        -------search----      -->
+            <input type="text" id="searchInput" style="width: 500px; height: 50px; border-radius: 50px; background-color: rgb(226, 226, 226);" placeholder="      Start a post try writting with AI" >
+          </div>
+          <div class="mid1-line2" >
+            <div style="padding-left: 80px;  padding-top: 10px; display: inline;">
+              <a href="" style="text-decoration: none; color: black;"><img src="media icon.png" alt="" height="25px" height="30px"><span style="font-size: 18px; padding-left: 8px;">Media</span>
+              </a>
+            </div>
+            <div style="padding-left: 90px;  padding-top: 10px; display: inline;">
+              <a href="" style="text-decoration: none; color: black;"><img src="event.png" alt="" height="25px" height="30px"><p style="font-size: 18px; padding-left: 8px; padding-top: 5px; display: inline;">Event</p>
+              </a>
+            </div>
+            <div style="padding-left: 90px;  padding-top: 15px; display: inline;">
+              <a href="" style="text-decoration: none; color: black;"><img src="Artical.png" alt="" height="25px" height="30px"><span style="font-size: 18px; padding-left: 6px;">Write Article</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--     ------sort-----    -->
+      <div class="sort">
+        <button class=" btn dropdown dropdown-toggle" data-bs-toggle="dropdown" style="float: right;"> Sort by - Top</button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">Top</li>
+          <li class="dropdown-item">Recent</li>
+        </ul>
+      </div>
+      <!--     ----posters----     -->
+      <div class="main_posters" id="main_posters">
+
+        <div class="mainmid" id="mid-main" data-name="Tharun G" data-industry="CODTECH IT Solutions" data-skills="JavaScript React">
+          <div class="m1" style="padding-left: 20px; padding-top: 10px;">
+              <a href="" style="text-decoration: none; color: black;"><img src="profile5.webp" alt="" style="height: 30px; width: 30px; border-radius: 50% ; display: inline;"></a>
+              <a href="" style="text-decoration: none; color: black;"><p style="display: inline;"><b> &nbsp; <a href="" class="like-pro">Raveena R </a></b> commended on this post</p></a>
+              <span style="padding-left: 220px; padding-top: 10px;"><button class=" btn dropdown" data-bs-toggle="dropdown" style="display: inline;"><sup><b>. . .</b></button>
+              <ul class="dropdown-menu" style="right: 0; width: 500px">
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="save.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Save</span></a></li>
+              
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="copy-link-icon-27-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Copy link to post</span></a></li>
+            
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="embed.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Embed this post</span></a></li>
+
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="hidden-icon-visible-invisible-icon-eye-icon-look-and-vision-hide-unhide-symbol-human-eye-magic-eye-cross-symbol-sencitive-content-see-unsee-incognito-mood-blind-sign-free-vector-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Hide post like this</span></a></li>
+              
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="cross-14-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Unfollow Raveena R</span></a></li>
+              
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="flag.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Report this post</span></a></li>
+            </ul></span>
+            <a href="" style="text-decoration: none; color: black;"><h6 style="display: inline; padding-left: 5px;"> <b>X</b></h6></a> 
+            <hr style=" margin-right: 20px;">
+            </div>
+
+            <div class="post" style="padding:10px 20px 0px ; margin: 5px 0px 10px;">
+              <div class="author" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+                <a href=""><img src="profile6.jpg" alt="" style=" width: 70px; border-radius: 50%;height: 70px;"></a>
+              <div style="padding-left: 10px;">
+                <h6 style="font-size: 16px; font-weight: 600;"><a href="" class="like-pro">Tharun G </a>-2nd </h6>
+                <small style="display: block;">HR at CODTECH IT Solutions</small>
+                <small style="display: block;">5 hours ago</small>
+              </div></div>
+              <p>Exciting News! <br><br>
+
+                CODTECH IT SOLUTIONS is currently hiring for full-time positions roles. <br>
+                
+                To express your interest and get in touch with our team, please comment: "INTERESTED." <br><br>
+                
+                For more updates like this, follow Tharun.G <br><br>
+                
+                <span><a href="" style="text-decoration: none;">#ImmediateHiring #NowHiring #CareerOpportunities #JobOpening #HiringNow #JoinOurTeam #InternshipOpportunity #FullTimeJob #CareerGrowth #TechJobs #ApplyNow #ITJobs
+                Activate to view larger image,</span></a>
+                </p>
+              <a href=""><img src="hiring post.jpg" alt="" width="100%" height="400px"></a>
+            </div>
+            <div class="react" style="padding-left: 30px;">
+                <div>
+                  <a href="" class="reactions" style=" width: 15px;"><img src="Thumbs up.png" alt="" style="height: 25px; width: 25px; margin-right: -15px;">
+                  <img src="heart like.png" alt="" style="height: 30px; width: 30px; margin-right: -15px">
+                  
+                  <small style="display: inline; padding-left: 20px;">Raveena R and 230 others </small></a>
+                  <div style="display: inline;">
+                    <a href="" class="reactions" style="padding-left: 150px;">65 commends - 10 reposts</a>
+                  </div>
+                </div>
+            </div><hr style="margin-left: 10px; margin-right: 10px;">
+            <div class="a-post">
+              <div class="buttons" style="padding-left: 10px; padding-right: 10px;">
+                <button class="btn" style="width: 150px; display: inline;"> <img src="thumbs-up-115498907331ieo6e8abw-removebg-preview.png" alt="" style="width: 30px; height: 30px;"><span style="font-size: larger; font-weight: 500;">  Like </span></button>
+                <button class="btn" style="width: 150px; display: inline;"> <img src="006-comment-reply-removebg-preview.png" alt="" style="width: 20px; height: 20px;"><span style="font-size: larger; font-weight: 500;">  Commend</span> </button>
+                <button class="btn" style="width: 150px; display: inline;"> <img src="Repost-icon-removebg-preview.png" alt="" style="width: 20px; height: 20px;"> <span style="font-size: larger; font-weight: 500;">  Repost</span> </button>
+                <button class="btn" style="width: 140px; display: inline;"> <img src="png-transparent-computer-icons-send-miscellaneous-angle-rectangle-thumbnail-removebg-preview.png" alt="" style="width: 20px; height: 20px;"> <span style="font-size: larger; font-weight: 500;">  Send </span> </button>
+              </div>
+              <div class="mid1-line1" style="padding: 7px 5px 0px 30px;">
+                <a href=""><img src="proofile img.jpg" alt="" style="border-radius: 50%; height: 60px; width: 55px;"></a>
+                <input type="text" style="width: 500px; height: 50px; border-radius: 50px; " placeholder="      Add a commend" >  
+                <a href="" style="text-decoration: none; margin-left: -80px;"><img src="emoji.png" alt="" style="width: 25px; height: 25px;"></a>
+                <a href="" style="text-decoration: none; margin-right: 10px; "><img src="gallery.png" alt="" style="height: 25px; width: 25px;"></a>                
+              </div>
+              <div class="author" style="display: flex; align-items: flex-start; margin-bottom: 20px; padding-left: 33px; padding-top: 20px;">
+                <a href=""><img src="profile5.webp" alt="" style=" width: 50px; border-radius: 50%;height: 50px;"></a>
+              <div style=" margin-left: 8px; padding-left: 15px; padding-bottom: 10px; background-color: rgb(221, 221, 221); border-radius: 10px;">
+                <h6 style="font-size: 16px; font-weight: 600; padding-top: 10px;"> <a href="" class="like-pro">Raveena R</a> <span style="font-weight: lighter;">(She/Her)  -1st</span><span style="padding-left: 230px;"> 36m </span><span ><button class=" btn dropdown" data-bs-toggle="dropdown" style="display: inline;"><sup><b>. . .</b></button>
+                  <ul class="dropdown-menu" style="right: 0; width: 500px">
+                  <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="save.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Save</span></a></li>
+                  
+                  <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="copy-link-icon-27-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Copy link to post</span></a></li></h6>
+                <small style="display: block; font-weight: lighter; color: rgb(99, 99, 99);">Full stack Developer</small><br>
+                <small style="display: block;"><a href="" style="text-decoration: none;">#intrested</a></small>
+              </div></div> 
+              <div style="margin-left: 100px; margin-bottom: 10px;"><a href="" class="lr">Like</a> <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="" class="lr">Reply</a></div>     
+              <a href="" class="cmnds">Show more 35 commends</a>    
+            </div>
+        </div>
+
+        <div class="mainmid" id="mid-main" data-name="Harish" data-industry="Cognizant Technology" data-skills="bpo role-voice">
+          <div class="m1" style="padding-left: 20px; padding-top: 10px;">
+              <a href="" style="text-decoration: none; color: black;">
+                <img src="profile2.jpg" alt="" style="height: 30px; width: 30px; border-radius: 50% ; display: inline;">
+              </a>
+              <a href="" style="text-decoration: none; color: black;">
+                <p style="display: inline;"><b> &nbsp;<a href="" class="like-pro">Andrew M</a></b> liked this post</p>
+              </a>
+              <span style="padding-left: 300px; padding-top: 10px;">
+                <button class=" btn dropdown" data-bs-toggle="dropdown" style="display: inline;"><sup><b>. . .</b></button>
+                <ul class="dropdown-menu" style="right: 0; width: 500px">
+                  <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="save.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Save</span></a></li>
+              
+                  <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="copy-link-icon-27-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Copy link to post</span></a></li>
+            
+                  <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="embed.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Embed this post</span></a></li>
+    
+                  <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="hidden-icon-visible-invisible-icon-eye-icon-look-and-vision-hide-unhide-symbol-human-eye-magic-eye-cross-symbol-sencitive-content-see-unsee-incognito-mood-blind-sign-free-vector-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Hide post like this</span></a></li>
+              
+                  <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="cross-14-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Unfollow Andrew N</span></a></li>
+              
+                  <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="flag.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Report this post</span></a></li>
+                </ul>
+              </span>
+              <a href="" style="text-decoration: none; color: black;">
+                <h6 style="display: inline; padding-left: 5px;"> <b>X</b></h6>
+              </a> 
+              <hr style=" margin-right: 20px;">
+            </div>
+            <div class="profile"  style="padding:10px 20px 0px ; margin: 5px 0px 10px;">
+              <div class="author" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+                <a href=""><img src="profile3.jpg" alt="" style=" width: 70px; border-radius: 50%;height: 70px;"></a>
+                <div style="padding-left: 10px;">
+                  <h6 style="font-size: 16px; font-weight: 600;"><a href="" class="like-pro">Harish </a>-2nd</h6>
+                  <small style="display: block;">CEO of Cognizant Technology</small>
+                <small style="display: block;">2 hours ago</small>
+                </div>
+              </div>
+              <p><strong>Industry:</strong> Cognizant Technology</p>
+              <p><strong>Skills:</strong>BPO Role-Voice</p><br>
+              <span><a href="" style="text-decoration: none;">#cognizant #BPO #hiring #spotselection #cognizantchennai</span></a>
+              <a href=""><img src="cog.jpeg" alt="" width="100%" height="400px"></a>
+            </div>
+            <div class="react" style="padding-left: 30px;">
+              <div>
+                <a href="" class="reactions" style=" width: 15px;">
+                  <img src="Thumbs up.png" alt="" style="height: 25px; width: 25px; margin-right: -15px;">
+                  <img src="heart like.png" alt="" style="height: 30px; width: 30px; margin-right: -15px">
+                  <img src="clap.png" alt="" style="height: 20px; width: 25px; margin-right: -15px">
+                  <small style="display: inline; padding-left: 20px;">Andrew N and 740 others </small>
+                </a>
+                <div style="display: inline;">                
+                  <a href="" class="reactions" style="padding-left: 150px;">53 commends - 5 reposts</a>
+                </div>
+              </div>
+            </div>
+            <hr style="margin-left: 10px; margin-right: 10px;">
+            <div class="a-post">
+              <div class="buttons" style="padding-left: 10px; padding-right: 10px;">
+                <button class="btn" style="width: 150px; display: inline;"> 
+                  <img src="thumbs-up-115498907331ieo6e8abw-removebg-preview.png" alt="" style="width: 30px; height: 30px;"><span style="font-size: larger; font-weight: 500;">  Like </span>
+                </button>
+                <button class="btn" style="width: 150px; display: inline;"> 
+                  <img src="006-comment-reply-removebg-preview.png" alt="" style="width: 20px; height: 20px;"><span style="font-size: larger; font-weight: 500;">  Commend</span> 
+                </button>
+                <button class="btn" style="width: 150px; display: inline;"> 
+                  <img src="Repost-icon-removebg-preview.png" alt="" style="width: 20px; height: 20px;"> <span style="font-size: larger; font-weight: 500;">  Repost</span> 
+                </button>
+                <button class="btn" style="width: 140px; display: inline;"> 
+                  <img src="png-transparent-computer-icons-send-miscellaneous-angle-rectangle-thumbnail-removebg-preview.png" alt="" style="width: 20px; height: 20px;"> <span style="font-size: larger; font-weight: 500;">  Send </span> 
+                </button>
+              </div>
+              <div class="mid1-line1" style="padding: 7px 5px 0px 30px;">
+                <a href=""><img src="proofile img.jpg" alt="" style="border-radius: 50%; height: 60px; width: 55px;"></a>
+                <input type="text" style="width: 500px; height: 50px; border-radius: 50px; " placeholder="      Add a commend" >  
+                <a href="" style="text-decoration: none; margin-left: -80px;"><img src="emoji.png" alt="" style="width: 25px; height: 25px;"></a>
+                <a href="" style="text-decoration: none; margin-right: 10px; "><img src="gallery.png" alt="" style="height: 25px; width: 25px;"></a>                
+              </div>
+              <div class="author" style="display: flex; align-items: flex-start; margin-bottom: 5px; padding-left: 33px; padding-top: 20px;">
+                <a href=""><img src="profile4.jpg" alt="" style=" width: 50px; border-radius: 50%;height: 50px;"></a>
+                <div style=" margin-left: 8px; padding-left: 15px; padding-bottom: 10px; background-color: rgb(221, 221, 221); border-radius: 10px;">
+                  <h6 style="font-size: 16px; font-weight: 600; padding-top: 10px;"><a href="" class="like-pro">Vidhyashri.R</a> <span style="font-weight: lighter;">(She/Her)  -1st</span><span style="padding-left: 230px;"> 24m </span><span ><button class=" btn dropdown" data-bs-toggle="dropdown" style="display: inline;"><sup><b>. . .</b></button>
+                    <ul class="dropdown-menu" style="right: 0; width: 500px">
+                      <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;">
+                        <a href="" style="text-decoration: none; color: black;"><img src="save.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Save</span></a>
+                      </li>
+                    
+                      <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;">
+                        <a href="" style="text-decoration: none; color: black;"><img src="copy-link-icon-27-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Copy link to post</span></a>
+                      </li>
+                    </ul>
+                  </h6>
+                  <small style="display: block; font-weight: lighter; color: rgb(99, 99, 99);">Data Analyst at Objectways Technologies</small><br>
+                  <small style="display: block;">Thoughtful Thursday....</small>
+                </div>
+              </div>
+              <div style="margin-left: 100px; margin-bottom: 10px;">
+                <a href="" class="lr">Like</a> 
+                <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                <a href="" class="lr">Reply</a>
+              </div>     
+              <a href="" class="cmnds">Show more 10 commends</a>    
+            </div>
+
+        </div>
+
+        <div class="mainmid" id="mid-main" data-name="Karthikraja S" data-industry="Aspire System" data-skills="C# Python SQL">
+          <div class="m1" style="padding-left: 20px; padding-top: 10px;">
+              <a href="" style="text-decoration: none; color: black;"><img src="profile6.jpg" alt="" style="height: 30px; width: 30px; border-radius: 50% ; display: inline;"></a>
+              <a href="" style="text-decoration: none; color: black;"><p style="display: inline;"><b> &nbsp; <a href="" class="like-pro">Tharun G </a></b> liked this post</p></a>
+              <span style="padding-left: 300px; padding-top: 10px;"><button class=" btn dropdown" data-bs-toggle="dropdown" style="display: inline;"><sup><b>. . .</b></button>
+              <ul class="dropdown-menu" style="right: 0; width: 500px">
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="save.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Save</span></a></li>
+              
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="copy-link-icon-27-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Copy link to post</span></a></li>
+            
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="embed.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Embed this post</span></a></li>
+
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="hidden-icon-visible-invisible-icon-eye-icon-look-and-vision-hide-unhide-symbol-human-eye-magic-eye-cross-symbol-sencitive-content-see-unsee-incognito-mood-blind-sign-free-vector-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Hide post like this</span></a></li>
+              
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="cross-14-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Unfollow Raveena R</span></a></li>
+              
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="flag.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Report this post</span></a></li>
+            </ul></span>
+            <a href="" style="text-decoration: none; color: black;"><h6 style="display: inline; padding-left: 5px;"> <b>X</b></h6></a> 
+            <hr style=" margin-right: 20px;">
+            </div>
+
+            <div class="post" style="padding:10px 20px 0px ; margin: 5px 0px 10px;">
+              <div class="author" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+                <a href=""><img src="profile7.jpeg" alt="" style=" width: 70px; border-radius: 50%;height: 70px;"></a>
+              <div style="padding-left: 10px;">
+                <h6 style="font-size: 16px; font-weight: 600;"><a href="" class="like-pro">Karthikraja S</a>-2nd</h6>
+                <small style="display: block;">CEO of Aspire Systems</small>
+                <small style="display: block;">4 hours ago</small>
+              </div></div>
+              <p>A true leader is the one who pats on the back of the team members even when the tide is unfavourable. <br><br>
+                <span><a href="" style="text-decoration: none;">#IPLFinal #inspiration #leadership #KKRvsSRH #motivation #success #IPL2024 #bosetalks</span></a>
+                </p>
+              <video autoplay muted loop width="100%" height="400px">
+                <source src="vid4.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="react" style="padding-left: 30px;">
+                <div>
+                  <a href="" class="reactions" style=" width: 15px;"><img src="Thumbs up.png" alt="" style="height: 25px; width: 25px; margin-right: -15px;">
+                  <img src="heart like.png" alt="" style="height: 30px; width: 30px; margin-right: -15px">
+                  
+                  <small style="display: inline; padding-left: 20px;">Deep Singh and 80 others </small></a>
+                  <div style="display: inline;">
+                    <a href="" class="reactions" style="padding-left: 150px;">30 commends - 12 reposts</a>
+                  </div>
+                </div>
+            </div><hr style="margin-left: 10px; margin-right: 10px;">
+            <div class="a-post">
+              <div class="buttons" style="padding-left: 10px; padding-right: 10px;">
+                <button class="btn" style="width: 150px; display: inline;"> <img src="thumbs-up-115498907331ieo6e8abw-removebg-preview.png" alt="" style="width: 30px; height: 30px;"><span style="font-size: larger; font-weight: 500;">  Like </span></button>
+                <button class="btn" style="width: 150px; display: inline;"> <img src="006-comment-reply-removebg-preview.png" alt="" style="width: 20px; height: 20px;"><span style="font-size: larger; font-weight: 500;">  Commend</span> </button>
+                <button class="btn" style="width: 150px; display: inline;"> <img src="Repost-icon-removebg-preview.png" alt="" style="width: 20px; height: 20px;"> <span style="font-size: larger; font-weight: 500;">  Repost</span> </button>
+                <button class="btn" style="width: 140px; display: inline;"> <img src="png-transparent-computer-icons-send-miscellaneous-angle-rectangle-thumbnail-removebg-preview.png" alt="" style="width: 20px; height: 20px;"> <span style="font-size: larger; font-weight: 500;">  Send </span> </button>
+              </div>
+              <div class="mid1-line1" style="padding: 7px 5px 0px 30px;">
+                <a href=""><img src="proofile img.jpg" alt="" style="border-radius: 50%; height: 60px; width: 55px;"></a>
+                <input type="text" style="width: 500px; height: 50px; border-radius: 50px; " placeholder="      Add a commend" >  
+                <a href="" style="text-decoration: none; margin-left: -80px;"><img src="emoji.png" alt="" style="width: 25px; height: 25px;"></a>
+                <a href="" style="text-decoration: none; margin-right: 10px; "><img src="gallery.png" alt="" style="height: 25px; width: 25px;"></a>                
+              </div>
+                  
+            </div>
+        </div>
+        
+        <div class="mainmid" id="mid-main" data-name="Akshatha A" data-industry="Excelr Solution" data-skills="FullStack Digitalmarketing">
+          <div class="m1" style="padding-left: 20px; padding-top: 10px;">
+              <a href="" style="text-decoration: none; color: black;"><img src="profile6.jpg" alt="" style="height: 30px; width: 30px; border-radius: 50% ; display: inline;"></a>
+              <a href="" style="text-decoration: none; color: black;"><p style="display: inline;"><b> &nbsp; <a href="" class="like-pro">Tharun G</a></b> commended on this post</p></a>
+              <span style="padding-left: 220px; padding-top: 10px;"><button class=" btn dropdown" data-bs-toggle="dropdown" style="display: inline;"><sup><b>. . .</b></button>
+              <ul class="dropdown-menu" style="right: 0; width: 500px">
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="save.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Save</span></a></li>
+              
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="copy-link-icon-27-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Copy link to post</span></a></li>
+            
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="embed.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Embed this post</span></a></li>
+
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="hidden-icon-visible-invisible-icon-eye-icon-look-and-vision-hide-unhide-symbol-human-eye-magic-eye-cross-symbol-sencitive-content-see-unsee-incognito-mood-blind-sign-free-vector-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Hide post like this</span></a></li>
+              
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="cross-14-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Unfollow Raveena R</span></a></li>
+              
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="flag.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Report this post</span></a></li>
+            </ul></span>
+            <a href="" style="text-decoration: none; color: black;"><h6 style="display: inline; padding-left: 5px;"> <b>X</b></h6></a> 
+            <hr style=" margin-right: 20px;">
+            </div>
+
+            <div class="post" style="padding:10px 20px 0px ; margin: 5px 0px 10px;">
+              <div class="author" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+                <a href=""><img src="profile4.jpg" alt="" style=" width: 70px; border-radius: 50%;height: 70px;"></a>
+              <div style="padding-left: 10px;">
+                <h6 style="font-size: 16px; font-weight: 600;"><a href="" class="like-pro">Akshatha A</a>-2nd </h6>
+                <small style="display: block;">HR at Excelr Solution</small>
+                <small style="display: block;">5 hours ago</small>
+              </div></div>
+              <p>Exciting News! <br>
+
+                Our SkillUp Final Years Program- Verbal Ability Quiz journey has ended victoriously,revealing the stars among us! Kudos to our winners 🌠  <br>
+                
+                your mastery of verbalskills has crowned you champions. Your prizes await, with gift vouchers zooming into your inboxes shortly! <br><br>
+                
+                For more updates like this, follow Akshatha A <br><br>
+                
+                <span><a href="" style="text-decoration: none;">
+                  #excelr #skillupfinalyears #verbalability #freetraining #communicationskills #interviewskills 
+                  #students #career #employers #aceinterviews #softskills
+                  
+                  
+                Activate to view larger image,</span></a>
+                </p>
+              <a href=""><img src="excelrbig.jpeg" alt="" width="100%" height="400px"></a>
+            </div>
+            <div class="react" style="padding-left: 30px;">
+                <div>
+                  <a href="" class="reactions" style=" width: 15px;"><img src="Thumbs up.png" alt="" style="height: 25px; width: 25px; margin-right: -15px;">
+                  <img src="heart like.png" alt="" style="height: 30px; width: 30px; margin-right: -15px">
+                  
+                  <small style="display: inline; padding-left: 20px;">Tharun G and 230 others </small></a>
+                  <div style="display: inline;">
+                    <a href="" class="reactions" style="padding-left: 150px;">125 commends - 60 reposts</a>
+                  </div>
+                </div>
+            </div><hr style="margin-left: 10px; margin-right: 10px;">
+            <div class="a-post">
+              <div class="buttons" style="padding-left: 10px; padding-right: 10px;">
+                <button class="btn" style="width: 150px; display: inline;"> <img src="thumbs-up-115498907331ieo6e8abw-removebg-preview.png" alt="" style="width: 30px; height: 30px;"><span style="font-size: larger; font-weight: 500;">  Like </span></button>
+                <button class="btn" style="width: 150px; display: inline;"> <img src="006-comment-reply-removebg-preview.png" alt="" style="width: 20px; height: 20px;"><span style="font-size: larger; font-weight: 500;">  Commend</span> </button>
+                <button class="btn" style="width: 150px; display: inline;"> <img src="Repost-icon-removebg-preview.png" alt="" style="width: 20px; height: 20px;"> <span style="font-size: larger; font-weight: 500;">  Repost</span> </button>
+                <button class="btn" style="width: 140px; display: inline;"> <img src="png-transparent-computer-icons-send-miscellaneous-angle-rectangle-thumbnail-removebg-preview.png" alt="" style="width: 20px; height: 20px;"> <span style="font-size: larger; font-weight: 500;">  Send </span> </button>
+              </div>
+              <div class="mid1-line1" style="padding: 7px 5px 0px 30px;">
+                <a href=""><img src="proofile img.jpg" alt="" style="border-radius: 50%; height: 60px; width: 55px;"></a>
+                <input type="text" style="width: 500px; height: 50px; border-radius: 50px; " placeholder="      Add a commend" >  
+                <a href="" style="text-decoration: none; margin-left: -80px;"><img src="emoji.png" alt="" style="width: 25px; height: 25px;"></a>
+                <a href="" style="text-decoration: none; margin-right: 10px; "><img src="gallery.png" alt="" style="height: 25px; width: 25px;"></a>                
+              </div>
+              <div class="author" style="display: flex; align-items: flex-start; margin-bottom: 20px; padding-left: 33px; padding-top: 20px;">
+                <a href=""><img src="profile6.jpg" alt="" style=" width: 50px; border-radius: 50%;height: 50px;"></a>
+              <div style=" margin-left: 8px; padding-left: 15px; padding-bottom: 10px; background-color: rgb(221, 221, 221); border-radius: 10px;">
+                <h6 style="font-size: 16px; font-weight: 600; padding-top: 10px;"> <a href="" class="like-pro">Tharun G</a> <span style="font-weight: lighter;">(He/Her)  -1st</span><span style="padding-left: 230px;"> 36m </span><span ><button class=" btn dropdown" data-bs-toggle="dropdown" style="display: inline;"><sup><b>. . .</b></button>
+                  <ul class="dropdown-menu" style="right: 0; width: 500px">
+                  <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="save.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Save</span></a></li>
+                  
+                  <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="copy-link-icon-27-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Copy link to post</span></a></li></h6>
+                <small style="display: block; font-weight: lighter; color: rgb(99, 99, 99);">super</small><br>
+                <small style="display: block;"><a href="" style="text-decoration: none;">#intrested</a></small>
+              </div></div> 
+              <div style="margin-left: 100px; margin-bottom: 10px;"><a href="" class="lr">Like</a> <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="" class="lr">Reply</a></div>     
+              <a href="" class="cmnds">Show more 35 commends</a>    
+            </div>
+        </div>
+
+        <div class="mainmid" id="mid-main" data-name="Bharath" data-industry="Softshala Nepal" data-skills="Frontend Developer html css">
+          <div class="m1" style="padding-left: 20px; padding-top: 10px;">
+              <a href="" style="text-decoration: none; color: black;"><img src="profile4.jpg" alt="" style="height: 30px; width: 30px; border-radius: 50% ; display: inline;"></a>
+              <a href="" style="text-decoration: none; color: black;"><p style="display: inline;"><b> &nbsp; <a href="" class="like-pro">Tharun G</a></b> commended on this post</p></a>
+              <span style="padding-left: 220px; padding-top: 10px;"><button class=" btn dropdown" data-bs-toggle="dropdown" style="display: inline;"><sup><b>. . .</b></button>
+              <ul class="dropdown-menu" style="right: 0; width: 500px">
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="save.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Save</span></a></li>
+              
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="copy-link-icon-27-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Copy link to post</span></a></li>
+            
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="embed.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Embed this post</span></a></li>
+
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="hidden-icon-visible-invisible-icon-eye-icon-look-and-vision-hide-unhide-symbol-human-eye-magic-eye-cross-symbol-sencitive-content-see-unsee-incognito-mood-blind-sign-free-vector-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Hide post like this</span></a></li>
+              
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="cross-14-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Unfollow Raveena R</span></a></li>
+              
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="flag.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Report this post</span></a></li>
+            </ul></span>
+            <a href="" style="text-decoration: none; color: black;"><h6 style="display: inline; padding-left: 5px;"> <b>X</b></h6></a> 
+            <hr style=" margin-right: 20px;">
+            </div>
+
+            <div class="post" style="padding:10px 20px 0px ; margin: 5px 0px 10px;">
+              <div class="author" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+                <a href=""><img src="abd.jpg" alt="" style=" width: 70px; border-radius: 50%;height: 70px;"></a>
+              <div style="padding-left: 10px;">
+                <h6 style="font-size: 16px; font-weight: 600;"><a href="" class="like-pro">Bharath</a>-2nd </h6>
+                <small style="display: block;">Softshala Nepal</small>
+                <small style="display: block;">5 hours ago</small>
+              </div></div>
+              <p>Exciting News! <br>
+                
+                <span><a href="" style="text-decoration: none;">
+                  #Softshala Nepal #skillupfinalyears #verbalability #freetraining #communicationskills #interviewskills 
+                  #students #career #employers #aceinterviews #softskills HTML #CSS #JavaScript
+                  
+                  
+                Activate to view larger image,</span></a>
+                </p>
+              <a href=""><img src="softshala Nepal.png" alt="" width="100%" height="400px"></a>
+            </div>
+            <div class="react" style="padding-left: 30px;">
+                <div>
+                  <a href="" class="reactions" style=" width: 15px;"><img src="Thumbs up.png" alt="" style="height: 25px; width: 25px; margin-right: -15px;">
+                  <img src="heart like.png" alt="" style="height: 30px; width: 30px; margin-right: -15px">
+                  
+                  <small style="display: inline; padding-left: 20px;">Tharun G and 230 others </small></a>
+                  <div style="display: inline;">
+                    <a href="" class="reactions" style="padding-left: 150px;">125 commends - 60 reposts</a>
+                  </div>
+                </div>
+            </div><hr style="margin-left: 10px; margin-right: 10px;">
+            <div class="a-post">
+              <div class="buttons" style="padding-left: 10px; padding-right: 10px;">
+                <button class="btn" style="width: 150px; display: inline;"> <img src="thumbs-up-115498907331ieo6e8abw-removebg-preview.png" alt="" style="width: 30px; height: 30px;"><span style="font-size: larger; font-weight: 500;">  Like </span></button>
+                <button class="btn" style="width: 150px; display: inline;"> <img src="006-comment-reply-removebg-preview.png" alt="" style="width: 20px; height: 20px;"><span style="font-size: larger; font-weight: 500;">  Commend</span> </button>
+                <button class="btn" style="width: 150px; display: inline;"> <img src="Repost-icon-removebg-preview.png" alt="" style="width: 20px; height: 20px;"> <span style="font-size: larger; font-weight: 500;">  Repost</span> </button>
+                <button class="btn" style="width: 140px; display: inline;"> <img src="png-transparent-computer-icons-send-miscellaneous-angle-rectangle-thumbnail-removebg-preview.png" alt="" style="width: 20px; height: 20px;"> <span style="font-size: larger; font-weight: 500;">  Send </span> </button>
+              </div>
+              <div class="mid1-line1" style="padding: 7px 5px 0px 30px;">
+                <a href=""><img src="proofile img.jpg" alt="" style="border-radius: 50%; height: 60px; width: 55px;"></a>
+                <input type="text" style="width: 500px; height: 50px; border-radius: 50px; " placeholder="      Add a commend" >  
+                <a href="" style="text-decoration: none; margin-left: -80px;"><img src="emoji.png" alt="" style="width: 25px; height: 25px;"></a>
+                <a href="" style="text-decoration: none; margin-right: 10px; "><img src="gallery.png" alt="" style="height: 25px; width: 25px;"></a>                
+              </div>
+              <div class="author" style="display: flex; align-items: flex-start; margin-bottom: 20px; padding-left: 33px; padding-top: 20px;">
+                <a href=""><img src="profile6.jpg" alt="" style=" width: 50px; border-radius: 50%;height: 50px;"></a>
+              <div style=" margin-left: 8px; padding-left: 15px; padding-bottom: 10px; background-color: rgb(221, 221, 221); border-radius: 10px;">
+                <h6 style="font-size: 16px; font-weight: 600; padding-top: 10px;"> <a href="" class="like-pro">Tharun G</a> <span style="font-weight: lighter;">(He/Her)  -1st</span><span style="padding-left: 230px;"> 36m </span><span ><button class=" btn dropdown" data-bs-toggle="dropdown" style="display: inline;"><sup><b>. . .</b></button>
+                  <ul class="dropdown-menu" style="right: 0; width: 500px">
+                  <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="save.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Save</span></a></li>
+                  
+                  <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="copy-link-icon-27-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Copy link to post</span></a></li></h6>
+                <small style="display: block; font-weight: lighter; color: rgb(99, 99, 99);">super</small><br>
+                <small style="display: block;"><a href="" style="text-decoration: none;">#intrested</a></small>
+              </div></div> 
+              <div style="margin-left: 100px; margin-bottom: 10px;"><a href="" class="lr">Like</a> <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="" class="lr">Reply</a></div>     
+              <a href="" class="cmnds">Show more 35 commends</a>    
+            </div>
+        </div>
+
+        <div class="mainmid" id="mid-main" data-name="pramod" data-industry="Softshala Nepal" data-skills="Frontend Developer html css">
+          <div class="m1" style="padding-left: 20px; padding-top: 10px;">
+              <a href="" style="text-decoration: none; color: black;"><img src="profile4.jpg" alt="" style="height: 30px; width: 30px; border-radius: 50% ; display: inline;"></a>
+              <a href="" style="text-decoration: none; color: black;"><p style="display: inline;"><b> &nbsp; <a href="" class="like-pro">Tharun G</a></b> commended on this post</p></a>
+              <span style="padding-left: 220px; padding-top: 10px;"><button class=" btn dropdown" data-bs-toggle="dropdown" style="display: inline;"><sup><b>. . .</b></button>
+              <ul class="dropdown-menu" style="right: 0; width: 500px">
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="save.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Save</span></a></li>
+              
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="copy-link-icon-27-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Copy link to post</span></a></li>
+            
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="embed.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Embed this post</span></a></li>
+
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="hidden-icon-visible-invisible-icon-eye-icon-look-and-vision-hide-unhide-symbol-human-eye-magic-eye-cross-symbol-sencitive-content-see-unsee-incognito-mood-blind-sign-free-vector-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Hide post like this</span></a></li>
+              
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="cross-14-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Unfollow Raveena R</span></a></li>
+              
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="flag.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Report this post</span></a></li>
+            </ul></span>
+            <a href="" style="text-decoration: none; color: black;"><h6 style="display: inline; padding-left: 5px;"> <b>X</b></h6></a> 
+            <hr style=" margin-right: 20px;">
+            </div>
+
+            <div class="post" style="padding:10px 20px 0px ; margin: 5px 0px 10px;">
+              <div class="author" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+                <a href=""><img src="abd.jpg" alt="" style=" width: 70px; border-radius: 50%;height: 70px;"></a>
+              <div style="padding-left: 10px;">
+                <h6 style="font-size: 16px; font-weight: 600;"><a href="" class="like-pro">Pramod</a>-2nd </h6>
+                <small style="display: block;">QA Engineer</small>
+                <small style="display: block;">5 hours ago</small>
+              </div></div>
+              <p>I’m happy to share that I’m starting a new position as Quality Assurance Trainee at Mobitech Wireless Solution Private Limited!<br>
+                </p>
+              <a href=""><img src="abd1.gif" alt="" width="100%" height="400px"></a>
+            </div>
+            <div class="react" style="padding-left: 30px;">
+                <div>
+                  <a href="" class="reactions" style=" width: 15px;"><img src="Thumbs up.png" alt="" style="height: 25px; width: 25px; margin-right: -15px;">
+                  <img src="heart like.png" alt="" style="height: 30px; width: 30px; margin-right: -15px">
+                  
+                  <small style="display: inline; padding-left: 20px;">Tharun G and 230 others </small></a>
+                  <div style="display: inline;">
+                    <a href="" class="reactions" style="padding-left: 150px;">125 commends - 60 reposts</a>
+                  </div>
+                </div>
+            </div><hr style="margin-left: 10px; margin-right: 10px;">
+            <div class="a-post">
+              <div class="buttons" style="padding-left: 10px; padding-right: 10px;">
+                <button class="btn" style="width: 150px; display: inline;"> <img src="thumbs-up-115498907331ieo6e8abw-removebg-preview.png" alt="" style="width: 30px; height: 30px;"><span style="font-size: larger; font-weight: 500;">  Like </span></button>
+                <button class="btn" style="width: 150px; display: inline;"> <img src="006-comment-reply-removebg-preview.png" alt="" style="width: 20px; height: 20px;"><span style="font-size: larger; font-weight: 500;">  Commend</span> </button>
+                <button class="btn" style="width: 150px; display: inline;"> <img src="Repost-icon-removebg-preview.png" alt="" style="width: 20px; height: 20px;"> <span style="font-size: larger; font-weight: 500;">  Repost</span> </button>
+                <button class="btn" style="width: 140px; display: inline;"> <img src="png-transparent-computer-icons-send-miscellaneous-angle-rectangle-thumbnail-removebg-preview.png" alt="" style="width: 20px; height: 20px;"> <span style="font-size: larger; font-weight: 500;">  Send </span> </button>
+              </div>
+              <div class="mid1-line1" style="padding: 7px 5px 0px 30px;">
+                <a href=""><img src="proofile img.jpg" alt="" style="border-radius: 50%; height: 60px; width: 55px;"></a>
+                <input type="text" style="width: 500px; height: 50px; border-radius: 50px; " placeholder="      Add a commend" >  
+                <a href="" style="text-decoration: none; margin-left: -80px;"><img src="emoji.png" alt="" style="width: 25px; height: 25px;"></a>
+                <a href="" style="text-decoration: none; margin-right: 10px; "><img src="gallery.png" alt="" style="height: 25px; width: 25px;"></a>                
+              </div>
+              <!-- <div class="author" style="display: flex; align-items: flex-start; margin-bottom: 20px; padding-left: 33px; padding-top: 20px;">
+                <a href=""><img src="profile6.jpg" alt="" style=" width: 50px; border-radius: 50%;height: 50px;"></a>
+              <div style=" margin-left: 8px; padding-left: 15px; padding-bottom: 10px; background-color: rgb(221, 221, 221); border-radius: 10px;">
+                <h6 style="font-size: 16px; font-weight: 600; padding-top: 10px;"> <a href="" class="like-pro">Tharun G</a> <span style="font-weight: lighter;">(He/Her)  -1st</span><span style="padding-left: 230px;"> 36m </span><span ><button class=" btn dropdown" data-bs-toggle="dropdown" style="display: inline;"><sup><b>. . .</b></button>
+                  <ul class="dropdown-menu" style="right: 0; width: 500px">
+                  <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="save.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Save</span></a></li>
+                  
+                  <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="copy-link-icon-27-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Copy link to post</span></a></li></h6>
+                <small style="display: block; font-weight: lighter; color: rgb(99, 99, 99);">super</small><br>
+                <small style="display: block;"><a href="" style="text-decoration: none;">#intrested</a></small>
+              </div>
+            </div>  -->
+              <div style="margin-left: 100px; margin-bottom: 10px;"><a href="" class="lr">Like</a> <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="" class="lr">Reply</a></div>     
+              <a href="" class="cmnds">Show more 35 commends</a>    
+            </div>
+        </div>
+    </div>
+       
+      
+    </div>
+    <!--     ------rightside bar------    -->
+
+    <div class="right-sidebar">
+      <div class="right-main1"> 
+        <div style="padding-left: 20px;">
+          <h4 style="display: inline;">Likedin News</h4>
+          <button class="btn dropdown" data-bs-toggle="dropdown" style="display: inline; float: right; padding-right: 10px; padding-top: 5px;"><img src="info-square.svg" alt="" style="width: 30px; height: 30px;"></button>
+          <ul class="dropdown-menu" style="box-shadow: 5px 5px 20px 5px black;">
+            <li class="dropdown-item">These are the day’s top professional news <br>stories and conversations. <span><a href="" style="text-decoration: none;">Learn more</a></span> about <br>how they’re selected.</li>
+         </ul>
+         <small style="opacity: .7; display: block;">top-stories</small>
+        </div>
+        <div class="r1" style="padding-top: 10px; padding-bottom: 10px;">
+          <a href=""><span style="font-weight: 600;">Fastest-growing industories for freshers</span>
+            <small>Top news - 33,257 readers </small></a>
+          <a href=""><span style="font-weight: 600;">How IT is partnering with IITs</span>
+            <small>2d ago -3,924 readers </small></a>
+          <a href=""><span style="font-weight: 600;">Debt Capital hits record high</span>
+            <small>3d ago - 3,634 readers </small></a>
+          <a href=""><span style="font-weight: 600;">Fewer women in leadership roles</span>
+            <small>2d ago - 2,601 readers </small></a>
+          <a href=""><span style="font-weight: 600;">Fewer freshers opt for master's</span>
+            <small>1d ago - 1,453 readers </small></a>
+        </div>
+        <a href="" class="r2 dropdown-toggle">Show more</a><br>  <br> 
+        <h5 style="padding-left: 20px; opacity: .6;">Today'game <span style="background-color: rgb(252, 208, 215);font-weight: 200; padding-left: 5px; padding-right: 7px;border-radius: 5px;">New</span></h5> 
+        <div class="r1" style="padding-top: 10px; padding-bottom: 10px;">
+          <a href="">
+            <span style="font-weight: 600;"><img src="crossclimb.jpg" alt="" style="width: 30px; height: 30px;"> Crossclimb #33</span><small style="padding-left: 35px;"> Unlock a trivia ladder </small></a>
+          <a href="">
+            <span style="font-weight: 600;"><img src="queens.png" alt="" style="width: 30px; height: 30px;"> Queens #33</span>
+            <small style="padding-left: 35px;">Crown each region</small></a>
+          <a href=""><span style="font-weight: 600;"><img src="pinpoint.png" alt="" style="width: 30px; height: 30px;"> Pinpoint  
+            #33</span><small style="padding-left: 35px;">Guess the catagory </small></a>
+        </div>
+      </div>
+      <div style=" margin-top: 200px;">  
+        <div class="right-main2">
+          <div>
+            <p style="display: inline; margin-left: 230;">Ad</p>
+            <span style=" padding-top: 10px; display: inline;"><button class=" btn dropdown" data-bs-toggle="dropdown" style="display: inline;"><sup><b>. . .</b></button>
+            <ul class="dropdown-menu" style="right: 0; width: 400px">
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><span     style="font-size: 30px; padding-left: 10px; font-weight: 600;">Ad Options</span><button class="btn" style="font-size: 30px; margin-left: 170px; margin-top: -10px;position: absolute;">X</button></li><hr>
+
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="info-square.svg" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Why am i seeing this Ad</span></a></li>
+                        
+              <li class="dropdown-item" style="padding-top: 5px; padding-left: 20px; padding-right: 5px; padding-bottom: 10px;"><a href="" style="text-decoration: none; color: black;"><img src="hidden-icon-visible-invisible-icon-eye-icon-look-and-vision-hide-unhide-symbol-human-eye-magic-eye-cross-symbol-sencitive-content-see-unsee-incognito-mood-blind-sign-free-vector-removebg-preview.png" alt="" style="width: 30px; height: 25px;"> <span style="font-size: 20px; padding-left: 10px; font-weight: 200;">Hide or report this ad</span></a></li>
+            </ul>
+          </div>
+          <div style="padding-left: 20px; padding-right: 10px; ">
+            <small style="opacity: .5; font-size: 15px; ">Karthikraja, Unlock your full potential with <span style="padding-left: 75px;">Linkedin premium</span></small>
+            <div style="padding-top: 5px; padding-bottom: 10px;">
+              <img src="proofile img.jpg" alt="" style="width: 70px; height: 70px; border-radius: 50%; margin-left: 50px; display: inline;">
+              <img src="linkedin premium.jpg" alt="" style="width: 70px; height: 70px; margin-left: 10px; display: inline; ">
+            </div>
+            <small style="opacity: .5; font-size: 15px; display: block;">See who's viewed your profile in the last <span style="padding-left: 95px;">90 days</span></small><br>
+            <div class="rm4"><button class="btn">Try for free </button></div> 
+          </div>
+        </div>br
+        <div class="right-end">
+          <div style="display: flex; justify-content: center; gap: 20px;">
+            <a href="" >About</a> <a href="">Accessibility</a>
+            <a href="">Help center</a>
+          </div>
+          <div style="display: flex; justify-content: center; gap: 20px;">
+            <a href="" class="dropdown dropdown-toggle" data-bs-toggle="dropdown" style="z-index: 99999;"> Privacy & terms 
+              <ul class="dropdown-menu" id="dd1">
+                <li class="dropdown-item">Privacy policy</li>
+                <li class="dropdown-item">User agreement</li>
+                <li class="dropdown-item">Pager terms</li>
+                <li class="dropdown-item">Cookie policy</li>
+                <li class="dropdown-item">Copyright policy</li>
+              </ul>
+            </a>
+            <a href="">Ad choices</a>
+          </div>
+          <div style="display: flex; justify-content: center; gap: 20px;">
+            <a href="" >Advertising</a>
+            <a href="">Business Services</a>
+          </div>
+          <div style="display: flex; justify-content: center; gap: 20px;">
+            <a href="" >Get the Linkedin app</a>
+            <a href="">More</a>
+          </div> 
+          <div style="display: flex; justify-content: center; padding-top: 15px;">
+            <img src="linkedin.svg" alt="" style="padding-left: 15px;"> &nbsp; Linkedin Copporation © 2024
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div style="margin-top: 500px; margin-left: 1200px;position: fixed;border: 2px solid black;border-radius: 20px; " >
+      <a href="add.html"><img src="https://w7.pngwing.com/pngs/460/800/png-transparent-material-icon-plus-icon-add-symbol-material-flat.png" alt="" style="width: 80px;height: 50px; border-radius: 20px;"></a>
+    </div>
+
+  </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

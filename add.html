@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Post</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            
+            background-image: url(https://imgv3.fotor.com/images/share/Free-pink-gradient-aesthetic-background-from-Fotor.jpg);
+            background-size: cover;
+        }
+
+        h2 {
+            text-align: center;
+            padding-top: 30px;
+            color: #333;
+        }
+
+        table {
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        table tr {
+            margin-bottom: 10px;
+        }
+
+        table td {
+            padding: 5px;
+        }
+
+        input[type="text"],
+        input[type="url"] {
+            width: 300px;
+            padding: 5px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        button:active {
+            background-color: #0056b3;
+            transform: translateY(1px);
+        }
+
+        .image-preview {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 0px;
+        }
+
+        .image-preview img {
+            max-width: 300px;
+            max-height: 300px;
+            margin-right: 10px;
+            
+            border-radius: 5px;
+            border: 2px solid black;
+        }
+
+        .preview-container {
+            text-align: center;
+            
+        }
+
+        .preview-container h2 {
+            margin-top: 5px;
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<div id="addCardForm">
+    <h2>New Post</h2>
+    <form >
+        <table >
+            <tr>
+                <td><label for="User_Name">User Name:</label></td>
+                <td><input type="text" id="User_Name" required></td>
+            </tr>
+            <tr>
+                <td><label for="User_ImageURL">User Image URL:</label></td>
+                <td><input type="url" id="User_ImageURL" onchange="previewImage('userImagePreview', this.value)" required></td>
+            </tr>
+            <tr>
+                <td><label for="User_Desigination">User Designation:</label></td>
+                <td><input type="text" id="User_Desigination" required></td>
+            </tr>
+            <tr>
+                <td><label for="Industry">Industry:</label></td>
+                <td><input type="text" id="Industry" required></td>
+            </tr>
+            <tr>
+                <td><label for="Skills">Skills:</label></td>
+                <td><input type="text" id="Skills" required></td>
+            </tr>
+            <tr>
+                <td><label for="About">About:</label></td>
+                <td><input type="text" id="About" required></td>
+            </tr>
+            <tr>
+                <td><label for="Hashtags">Hashtags:</label></td>
+                <td><input type="text" id="Hashtags" required></td>
+            </tr>
+            <tr>
+                <td><label for="Post_ImageURL">Post Image URL:</label></td>
+                <td><input type="url" id="Post_ImageURL" onchange="previewImage('postImagePreview', this.value)" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button onclick="addCard(event)">Add New Post</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<div class="image-preview">
+    <div class="preview-container">
+        <img id="userImagePreview" src="https://via.placeholder.com/150" alt="User Image Preview">
+        <h2>User Image Preview</h2>
+    </div>
+    <div class="preview-container">
+        <img id="postImagePreview" src="https://via.placeholder.com/150" alt="Post Image Preview">
+        <h2>Post Image Preview</h2>
+    </div>
+</div>
+
+<script>
+    function addCard(event) {
+        event.preventDefault(); // Prevent form submission
+
+        // Get input values
+        let User_Name = document.getElementById("User_Name").value;
+        let User_ImageURL = document.getElementById("User_ImageURL").value;
+        let User_Desigination = document.getElementById("User_Desigination").value;
+        let Industry = document.getElementById("Industry").value;
+        let Skills = document.getElementById("Skills").value;
+        let About = document.getElementById("About").value;
+        let Hashtags = document.getElementById("Hashtags").value;
+        let Post_ImageURL = document.getElementById("Post_ImageURL").value;
+
+        // Create new card object
+        let newcard = {
+            User_Name: User_Name,
+            User_ImageURL: User_ImageURL,
+            User_Desigination: User_Desigination,
+            Industry: Industry,
+            Skills: Skills,
+            About: About,
+            Hashtags: Hashtags,
+            Post_ImageURL: Post_ImageURL,
+        };
+
+        
+        let existingCards = JSON.parse(localStorage.getItem('cards')) || [];
+
+        
+        existingCards.unshift(newcard); 
+
+        
+        localStorage.setItem('cards', JSON.stringify(existingCards));
+
+        
+        setTimeout(function() {
+            
+            window.location.href = "index.html";
+        }, 2000);
+    }
+
+    function previewImage(imagePreviewId, imageURL) {
+        let imgElement = document.getElementById(imagePreviewId);
+        imgElement.src = imageURL;
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,277 @@
+
+.navbar-brand img{
+    padding-top: 0px;
+    padding-bottom: 7px;
+    width: 38px;
+    height: 43px;
+}
+
+.navbar{
+  background-color: white;
+  width: 100%; 
+}  
+.container-fluid{
+    padding-top: 0px;
+   background-color: white;
+}
+
+.d-flex img{
+    width: 15px;
+    height: 17px;
+}
+.d-flex{
+    height: 36px;
+    border-radius: 3px;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+    padding: 10px 16px;
+  
+}
+.ipt{
+    padding-top: 10px;
+}
+.left-sidebar,.right-sidebar{
+  flex-basis: 20%;
+  align-self: flex-start;
+}
+.main-content{
+  flex-basis: 50%;
+}
+.container{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.left-top{
+  width: 100%;
+  height: 360px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: white;
+}
+.top-middle,.top-middle2{
+  padding: 0px 13px;
+  width: 100%;
+  height: 60px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: white;
+}
+
+.top-end{
+  margin-top: 10px;
+  padding: 0px 13px;
+  width: 100%;
+  height: 190px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: white;
+}
+.info{
+    padding: 0px 13px;
+}
+.imgs{
+    background-color:#fff
+}
+.info img{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-top: -30%;
+  border-radius: 100%;
+}
+#name{
+  text-decoration: none;
+  color: black;
+}
+#name:hover{
+  text-decoration: underline;
+}
+.caption{
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+.caption:hover{
+  background-color: tomato;
+}
+.caption1{
+  text-decoration: none;
+  color: black;
+}
+.caption2:hover{
+  color: blue;
+}
+.top-middle:hover{
+    background-color: rgb(201, 201, 201)
+}
+.top-middle2:hover{
+    background-color: rgb(201, 201, 201)
+}
+.a1{
+  text-decoration: none;
+}
+.a1:hover{
+  text-decoration: underline blue;
+}
+.top-end2{
+  border-radius: 0px 0px 10px 10px;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+}
+.top-end2:hover{
+  background-color: rgb(201,201,201);
+}
+
+
+.mid1{
+  background-color: white;
+  height: 125px;
+  width: 100%;
+  border-radius: 10px;
+
+}
+.card{
+  width: 100%;
+  margin-top: 35px;
+  
+}
+#mid-main{
+  margin-top: 35px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: white;
+
+}
+.reactions{
+  text-decoration: none;
+  color: black;
+}
+.reactions:hover{
+  color: blue;
+  text-decoration: underline ;
+}
+.cmnds{
+  font-weight: 600;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 30px;
+  padding-top: 8px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+.cmnds:hover,.lr:hover,.btn:hover{
+ 
+  background-color: rgb(201, 201, 201);
+}
+
+.lr{
+  text-decoration: none;
+  color: black;
+}
+
+.right-main1{
+  padding-top: 15px;
+  
+  border-radius: 10px;
+  width: 100%;
+  background-color: white;
+  height: 630px;
+}
+.right-main1 button:hover{
+  background-color: white;
+  border: none;
+}
+.right-main1 button::after{
+  border: none;
+  background-color: white;
+
+}
+.r1 a{
+  padding-left: 20px;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+.r1 a small{
+display: block;
+color: black;
+padding-right: 104px;
+margin-bottom: 10px;
+opacity: .5;
+}
+.r1 a:hover,.r2:hover{
+background-color: rgb(221, 221, 221);
+}
+.r2{
+margin-left: 20px;
+margin-bottom: 10px;
+text-decoration: none;
+color: black;
+font-weight: 600;
+}
+
+.right-main2{
+  margin-top: 15px;
+  padding-top: 15px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: white;
+  height: 280px;
+}
+.rm2 ul:hover{
+  background-color: white;
+}
+.rm2 button:hover{
+  background-color: white;
+  border: none;
+}
+.rm4 .btn{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 80px;
+  border: 1px solid blue;
+  text-align: center;
+  color: blue;
+  border-radius: 30px;
+  justify-items: center;
+}
+.right-end{
+  margin-top: 15px;
+}
+.right-end a{
+  font-size: small;
+  color: rgb(100, 100, 100);
+  margin-top: 10px;
+  text-decoration: none;         
+}
+.right-end a:hover{
+  text-decoration: underline blue;
+  color: blue;
+}
+#dd1{
+  background-color: white;
+  opacity: 1;
+  z-index: 9999;
+}
+#dd1 li{
+  background-color: white;
+  opacity: 1;
+}
+.like-pro{
+  text-decoration: none;
+  color: black;
+}
+.like-pro:hover{
+  color: blue;
+  text-decoration: underline blue;
+  cursor: pointer;
+}
+.tleft-sidebar{
+  position: sticky;
+  top: 90px;
+}
